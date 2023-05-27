@@ -8,6 +8,10 @@ $(function() {
         $('.preloader').delay(500).fadeOut(500);
     });
 
+    setTimeout(function (){
+        $('.preloader').fadeOut(500)
+    }, 3000)
+
     
     
     //===== Slick
